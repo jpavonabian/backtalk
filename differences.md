@@ -512,7 +512,7 @@ Backtalk can describe images and screens with a model that runs on your phone, s
 
 ### Text in images without Google Play services
 
-TalkBack reads text in images with the ML Kit that runs inside Google Play services. On phones without Play services, such as GrapheneOS without sandboxed Google Play, **Describe image** can't read any text. Backtalk includes the text recognition model in the app, so it works with or without Play services. The model is built for all three processor types, so the phone APK is about 30 MB larger, going from 106 MB to 135 MB. The watch APK doesn't include the model, because image descriptions aren't available on watches.
+TalkBack reads text in images with the ML Kit that runs inside Google Play services. On phones without Play services, such as GrapheneOS without sandboxed Google Play, **Describe image** can't read any text. Backtalk includes the text recognition model in the app, so it works with or without Play services. The model is built for all three processor types, so the phone APK is about 30 MB larger, going from 106 MB to 135 MB. The watch APK doesn't include the model, because **Describe image** and automatic descriptions aren't available on watches. TalkBack also sends ML Kit's usage log to Google, and Backtalk doesn't.
 
 ### Clear error messages
 
